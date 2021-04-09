@@ -137,6 +137,7 @@ img {
 }
 
 .vertical-center {
+    color: #111111;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -171,7 +172,7 @@ form label {
 }
 
 .parallax {
-    background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/04/space-wallpapers-15.jpg");
+    background-image: url("images/park-dorozhka-skameyki-ozero.jpg");
     min-height: 400px;
 
     background-attachment: fixed;
@@ -281,7 +282,6 @@ ul.hormenu {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .hormenu li a:hover {
     background-color: #111;
 }
