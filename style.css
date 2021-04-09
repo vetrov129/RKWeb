@@ -340,17 +340,17 @@ ul.hormenu {
 
 #img1 {
     display: block;
-    width: min(100vh, 200px);
+    width: 200px;
     position: absolute;
     top: 0;
-    transition-property: right;
+    transition-property: top;
     transition-delay: 5s;
     z-index: 1;
     background: transparent;
 }
 
 #img1:hover {
-    right: 1000px;
+    top: 1000px;
 }
 
 .bush {
