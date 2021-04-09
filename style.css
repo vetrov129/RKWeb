@@ -342,12 +342,13 @@ ul.hormenu {
     width: min(100vh, 200px);
     position: absolute;
     top: 0;
-    transition: top 5s;
+    transition-property: right;
+    transition-delay: 5s;
     z-index: 1;
 }
 
 #img1:hover {
-    top: 1000px;
+    right: 1000px;
 }
 
 .bush {
