@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
         integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous" type="text/javascript">
-        </script>
+    </script>
 </head>
 
 <body class="preload">
@@ -20,25 +20,31 @@
             </svg>
             <h2 class="vertical-center"><a href="/">Название игры</a></h2>
         </header>
-        <nav class="menu menu--col-2">
-            <span id="author" class="vertical-center">Ветров А.Ю., 191-362, в1</span>
+        <nav class="menu menu--col-2 clearfix">
+            <span id="author" class="vertical-center">Наконечный П.А., 191-362, в1</span>
         </nav>
         <nav class="gamemenu">
             <ul class="hormenu">
-                <li><a href="register.html">Регистрация</a></li>
-                <li><a href="game.html">Страница игры</a></li>
+                <li><a href="/register">Регистрация</a></li>
+                <li><a href="/game">Страница игры</a></li>
             </ul>
         </nav>
         <section class="form parallax">
             <div class="vertical-center">
-                <h3>Играть!</h3>
-                <form class="clearfix" action="game.html">
+                <h3>Регистрация</h3>
+                <form class="clearfix">
                     <fieldset>
-                        <legend>Форма входа</legend>
-                        <label for="login">Логин</label><input id="login" type="text" name="login" placeholder="Логин..." required title="Введите ваш логин">
-                        <label for="password">Пароль</label><input id="password" type="password" name="password" title="Введите ваш пароль"
+                        <legend>Форма регистрации</legend>
+                        <label for="fio">ФИО</label><input id="fio" type="text" name="fio" placeholder="ФИО..." title="Фамилия имя отчество">
+                        <label for="organization">Организация</label><input id="organization" type="text" name="organization" title="Компания, где вы работаете"
+                            placeholder="Организация...">
+                        <label for="email">Email</label><input type="email" id="email" name="email" placeholder="Email..." title="Адрес электронной почты">
+                        <label for="login">Логин</label><input type="text" id="login" name="login" placeholder="Логин..." required title="Желаемое имя пользователя">
+                        <label for="password">Пароль</label><input type="password" id="password" name="password" title="Желаемый пароль"
                             placeholder="Пароль..." required>
-                        <label><a href="/">Забыли пароль?</a></label><input type="submit" value="Вход">
+                        <label for="password-repeat">Повторите пароль</label><input type="password" id="password-repeat" title="Подтверждение пароля"
+                            name="password-repeat" placeholder="Повторите пароль..." required>
+                        <input type="submit" class="clear" value="Вход">
                     </fieldset>
                 </form>
 
@@ -80,9 +86,9 @@
         </article>
         <article class="info info--col-2">
             <h3>Изображения</h3>
-            <img class="bush1" title="Куст зелёный раскидистый" alt="Куст зелёный раскидистый" src="bush1.png">
-            <img class="bush2" title="Куст с цветами" alt="Куст с цветами" src="bush2.png">
-            <img class="bush3" title="Куст зелёный с ветками" alt="Куст зелёный с ветками" src="bush3.png">
+            <img class="bush1" alt="" src="bush1.png">
+            <img class="bush2" alt="" src="bush2.png">
+            <img class="bush3" alt="" src="bush3.png">
         </article>
     </div>
 </body>
